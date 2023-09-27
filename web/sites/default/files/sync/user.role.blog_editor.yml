@@ -1,0 +1,14 @@
+uuid: 0439d00c-f7b2-4665-ab8b-2261133a08bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - node
+id: blog_editor
+label: 'Blog Editor'
+weight: 5
+is_admin: null
+permissions:
+  - 'edit any article content'

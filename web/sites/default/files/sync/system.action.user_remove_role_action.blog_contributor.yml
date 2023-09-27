@@ -1,0 +1,14 @@
+uuid: 742f0429-8d02-4a2c-a22b-638ab344564d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.blog_contributor
+  module:
+    - user
+id: user_remove_role_action.blog_contributor
+label: 'Remove the Blog Contributor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: blog_contributor

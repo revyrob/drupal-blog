@@ -1,0 +1,14 @@
+uuid: a5f0b6a8-82bc-4f10-b69e-a33cbf2742a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - node
+id: blog_contributor
+label: 'Blog Contributor'
+weight: 4
+is_admin: null
+permissions:
+  - 'create article content'

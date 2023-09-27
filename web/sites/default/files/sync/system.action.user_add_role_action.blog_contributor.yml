@@ -1,0 +1,14 @@
+uuid: 0f3aaba5-4f68-4efd-afea-104df83030c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.blog_contributor
+  module:
+    - user
+id: user_add_role_action.blog_contributor
+label: 'Add the Blog Contributor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: blog_contributor
