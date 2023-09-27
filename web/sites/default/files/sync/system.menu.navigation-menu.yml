@@ -1,0 +1,8 @@
+uuid: dac73f13-b6fb-4f9f-af17-3c0671b4dc1e
+langcode: en
+status: true
+dependencies: {  }
+id: navigation-menu
+label: 'Navigation Menu'
+description: 'menu for blog navigation by taxonomy'
+locked: false

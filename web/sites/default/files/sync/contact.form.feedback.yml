@@ -1,0 +1,14 @@
+uuid: 98b4ca36-4e80-47af-b715-175d7b622a72
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - kayle.robson@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

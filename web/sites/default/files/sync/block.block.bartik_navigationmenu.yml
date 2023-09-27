@@ -1,0 +1,25 @@
+uuid: e1933232-0e18-45f9-9484-bfa26288c8b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.navigation-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_navigationmenu
+theme: bartik
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'system_menu_block:navigation-menu'
+settings:
+  id: 'system_menu_block:navigation-menu'
+  label: 'Navigation Menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

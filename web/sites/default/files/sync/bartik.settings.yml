@@ -1,0 +1,12 @@
+favicon:
+  mimetype: image/svg+xml
+  path: 'public://noun-developer-94090_1.svg'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://noun-developer-94090.png'
+  use_default: false
